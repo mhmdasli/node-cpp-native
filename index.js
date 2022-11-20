@@ -5,12 +5,12 @@ const input = 500000
 
 let result
 
-console.time("cpp")
+console.time("cpp elapsed")
 result = findPrimeNative(input)
-console.timeEnd("cpp")
-console.log(result)
+console.log("prime = " ,result)
+console.timeEnd("cpp elapsed")
 
-console.time("JS")
+console.time("JS elapsed")
 result = findPrime(input)
-console.timeEnd("JS")
-console.log(result)
+console.log("prime = " ,result)
+console.timeEnd("JS elapsed")

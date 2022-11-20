@@ -48,11 +48,27 @@ run node app
 ```
 node index.js
 ```
-# expected output
-for the given 500000 input
+
+## other languges test
+### python
 ```
-cpp: 14.263s
-499979
-JS: 23.231s
-499979
+python ./find_primes.py
+```
+### java
+```
+javac -d out/ Main.java
+java -classpath .\out Main
+```
+### php
+```
+php ./find_primes.php
+```
+### rust
+```
+rustc ./find_primes.rs -o ./out/find_primes.exe
+.\out\find_primes.exe 
+```
+### go
+```
+go run find_primes.go
 ```
